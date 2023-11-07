@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
   buttonOuterContainer: {
     borderRadius: 28,
     margin: 4,
-    overflow: 'hidden'
+    overflow: 'hidden',
   },
   buttonInnerContainer: {
     backgroundColor: Colors.primary500,
@@ -32,7 +32,8 @@ const styles = StyleSheet.create({
     shadowColor: 'black',
     shadowRadius: 6,
     shadowOpacity: 0.25,
-    shadowOffset: { width: 0, height: 2 }
+    shadowOffset: { width: 0, height: 2 },
+    paddingHorizontal: 20
   },
   buttonText: {
     color: 'white',
